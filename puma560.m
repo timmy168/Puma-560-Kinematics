@@ -154,49 +154,49 @@ theta5_8 = atan2(T56_8(1,3),-T56_8(2,3));
 if theta5_1 ~= 0
     theta6_1 = atan2(T46_1(3,2),-T46_1(3,1));
 else
-    theta6_1 = atan2(-T46_1(1,2),T46_1(2,1)) - theta4_1;
+    theta6_1 = atan2(-T46_1(1,2),T46_1(2,2)) - theta4_1;
 end
 
 if theta5_2 ~= 0
     theta6_2 = atan2(-T46_1(3,2),T46_1(3,1));
 else
-    theta6_2 = atan2(T46_1(1,2),-T46_1(2,1)) - theta4_2;
+    theta6_2 = atan2(T46_1(1,2),-T46_1(2,2)) - theta4_2;
 end
 
 if theta5_3 ~= 0
     theta6_3 = atan2(T46_2(3,2),-T46_2(3,1));
 else
-    theta6_3 = atan2(-T46_2(1,2),T46_2(2,1)) - theta4_3;
+    theta6_3 = atan2(-T46_2(1,2),T46_2(2,2)) - theta4_3;
 end
 
 if theta5_4 ~= 0
     theta6_4 = atan2(-T46_2(3,2),T46_2(3,1));
 else
-    theta6_4 = atan2(T46_2(1,2),-T46_2(2,1)) - theta4_4;
+    theta6_4 = atan2(T46_2(1,2),-T46_2(2,2)) - theta4_4;
 end
 
 if theta5_5 ~= 0
     theta6_5 = atan2(T46_3(3,2),-T46_3(3,1));
 else
-    theta6_5 = atan2(-T46_3(1,2),T46_3(2,1)) - theta4_5;
+    theta6_5 = atan2(-T46_3(1,2),T46_3(2,2)) - theta4_5;
 end
 
 if theta5_6 ~= 0
     theta6_6 = atan2(-T46_3(3,2),T46_3(3,1));
 else
-    theta6_6 = atan2(T46_3(1,2),-T46_3(2,1)) - theta4_6;
+    theta6_6 = atan2(T46_3(1,2),-T46_3(2,2)) - theta4_6;
 end
 
 if theta5_7 ~= 0
     theta6_7 = atan2(T46_4(3,2),-T46_4(3,1));
 else
-    theta6_7 = atan2(-T46_4(1,2),T46_4(2,1)) - theta4_7;
+    theta6_7 = atan2(-T46_4(1,2),T46_4(2,2)) - theta4_7;
 end
 
 if theta5_8 ~= 0
     theta6_8 = atan2(-T46_4(3,2),T46_4(3,1));
 else
-    theta6_8 = atan2(T46_4(1,2),-T46_4(2,1)) - theta4_8;
+    theta6_8 = atan2(T46_4(1,2),-T46_4(2,2)) - theta4_8;
 end
 
 % IK output
